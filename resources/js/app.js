@@ -9,7 +9,7 @@ Vue.prototype.$http = axios;
 Vue.use(VueSocialauth, {
   providers: {
     vkontakte: {
-      clientId: '7382496',
+      clientId: '',
       redirectUri: '/auth/vkontakte/callback'
     }
   }
@@ -25,7 +25,7 @@ const app = new Vue({
     //     async initFacebook() {
     //         window.fbAsyncInit = function() {
     //           window.FB.init({
-    //             appId: "233156417738643", //You will need to change this
+    //             appId: "", //You will need to change this
     //             cookie: true, // This is important, it's not enabled by default
     //             version: "v13.0"
     //           });

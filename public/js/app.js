@@ -54688,7 +54688,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.prototype.$http = axios__WEBPACK_IMPO
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_social_auth__WEBPACK_IMPORTED_MODULE_4__["default"], {
   providers: {
     vkontakte: {
-      clientId: '7382496',
+      clientId: '',
       redirectUri: '/auth/vkontakte/callback'
     }
   }
@@ -54702,7 +54702,7 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   //     async initFacebook() {
   //         window.fbAsyncInit = function() {
   //           window.FB.init({
-  //             appId: "233156417738643", //You will need to change this
+  //             appId: "", //You will need to change this
   //             cookie: true, // This is important, it's not enabled by default
   //             version: "v13.0"
   //           });
